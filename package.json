@@ -1,12 +1,18 @@
 {
   "name": "project-slackbot",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "dist/index.js",
   "repository": "https://github.com/jmicky/project-slackbot.git",
   "author": "jmicky30 <jmicky30@gmail.com>",
-  "license": "MIT",
+  "license": "private",
+  "private": true,
   "devDependencies": {
+    "@types/csv-parse": "^1.1.12",
     "@types/node": "^11.13.8",
     "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@slack/web-api": "^5.0.1",
+    "csv-parse": "^4.4.1"
   }
 }
